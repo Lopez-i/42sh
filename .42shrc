@@ -1,0 +1,18 @@
+export EDITOR='emacs'
+export HISTSIZE=1000
+export MAIL="/u/all/${USER}/mail/${USER}"
+export PAGER='more'
+export PS1="(\u@\h \#)"
+export SAVEHIST=1000
+export WATCH='all'
+export LEO='olive'
+
+alias ll='ls -la --color
+alias l='ls --color'
+alias j='jobs'
+alias emacs='emacs -nw'
+alias ne='emacs'
+alias chromium='chromium --disable-namespace-sandbox'
+alias norme='python ~/year_2015_2016/norme.py -nocheat'
+alias ethan='setenv USER ULTRAZOB'
+alias change='cd ..'
